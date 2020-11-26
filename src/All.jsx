@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {medications} from './MedicationData.jsx'
-
+import styles from "./All.module.css";
 
 
 const All = () => {
@@ -27,10 +27,10 @@ const All = () => {
 	items.forEach(element => console.log(element));
 
     return (
-        <div>{
+        <div className = {styles.allContainer}>{
 			items.map(function(item, idx) {
 				return (
-					<div key={idx}>
+					<div className = {styles.medicationContainer} key={idx}>
 					<h2>{item.name}</h2>
 					<div>{item.discription}</div>
 					<a href={"/browse/" + item.id}> See more </a>

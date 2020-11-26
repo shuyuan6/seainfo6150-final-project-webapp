@@ -1,7 +1,6 @@
 import React from 'react'
-
 import {medications} from './MedicationData.jsx'
-
+import styles from "./browse.module.css";
 
 
 const Browse = () => {
@@ -12,10 +11,11 @@ const Browse = () => {
             	return (
             		<div key={idx}>
 	            		<h2> {type} </h2>
+						<div className = {styles.systemContainer}>
 	            		{
 	            			medications[type].map(function(item, idx) {
 	            				return (
-	            					<div key={idx}>
+	            					<div className = {styles.medicationContainer} key={idx}>
 	            					<h3>{item.name}</h3>
 	            					<div>{item.discription}</div>
 	            					<a href={"/browse/" + item.id}> See more </a>
@@ -25,7 +25,8 @@ const Browse = () => {
 	            					</div>
 	            				)
 	            			})
-	            		}	
+	            		}
+						</div>	
     				</div>
     			)
 			})

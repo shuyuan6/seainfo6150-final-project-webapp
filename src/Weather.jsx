@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import { isEmpty } from "lodash";
+import styles from "./Weather.module.css";
 
 const Weather = (props) => {
     const [fetchedData, setFetchedData] = useState([]);
@@ -32,7 +33,9 @@ const Weather = (props) => {
 
     if (!isEmpty(fetchedData)) {
         displayContent = (
-        <div> {fetchedData.city} : {fetchedData.weather} </div>
+        <div className = {styles.weather}> 
+            <b >Weather forecast</b>&nbsp;&nbsp;&nbsp;&nbsp;{fetchedData.city} : {fetchedData.weather}
+            </div>
         );
     } else {
         displayContent = (<div>Weather Data not available</div>);
