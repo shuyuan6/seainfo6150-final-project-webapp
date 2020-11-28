@@ -1,9 +1,11 @@
 import React from 'react'
+import styles from "./PrivacyPolicy.module.css"
 
 const PrivacyPolicy = () => {
     return (
-        <div>
+        <div className = {styles.container}>
             <h1>Privacy Policy</h1>
+            <br />
             <h2>What information is collected?</h2>
             <p>We collects information about you from the following sources: First is what you may provide us when you interact with Medications Dictionary. 
                 Second is certain data that is collected automatically as you use the Sites. Third, are inferences we may generate about you. 
@@ -25,6 +27,8 @@ const PrivacyPolicy = () => {
 
             <h3>C. Inferences</h3>
             <p>We also generate inferences about you based on information we collect about you.</p>
+            <br />
+            <br />
 
             <h2>What are cookies and how does we use them?</h2>
             <p>We and our trusted business partners employ technology features known as cookies and tags to understand 

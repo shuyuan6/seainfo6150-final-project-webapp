@@ -4,6 +4,7 @@ import {medications} from './MedicationData.jsx'
 import {useEffect} from "react"
 import { Switch, Route, Link, useLocation } from "react-router-dom";
 import Error from "./Error/Error.jsx"
+import styles from "./medication.module.css";
 
 const Medication = (props) => {
 
@@ -28,15 +29,22 @@ const Medication = (props) => {
      }, [location]);
 
     return obj === undefined ? (<Error />) : (
-        <div>
+        <div className = {styles.medication}>
             <h1>{obj.name}</h1>
-            Hi you are viewing detailed information for medication {obj.name}.
+            <p><b>Hi, you are viewing detailed information for medication {obj.name}.</b></p>
+            <br/>
             <h2>Description</h2>
             <p>{obj.discription}</p>
+            <br/>
+
             <h2>Usage</h2>
             <p>{obj.usage}</p>
+            <br/>
+
             <h2>Dosage</h2>
             <p>{obj.dosage}</p>
+            <br/>
+
             <h2>Side Effects</h2>
             <p>{obj.sideEffects}</p>
         </div>

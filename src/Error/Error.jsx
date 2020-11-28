@@ -1,12 +1,16 @@
 import React from 'react'
+import styles from "./Error.module.css"
+import error from "../images/error.png"
 
 const Error = () => {
     return (
-        <div>
-            The page you are looking for is not found!
+        <div className = {styles.container}>
+            <h1>The page you are looking for is not found!</h1>
+            
+            <img src={error} alt="Error" />
             <br />
-            <br />
-            You can click here to go to the home page!
+            <p>You can click <a  href="/">here</a> to go to the home page!</p>
+
         </div>
     )
 }

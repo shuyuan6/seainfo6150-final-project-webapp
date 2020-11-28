@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from "./WhoWeAre.module.css";
 
 const WhoWeAre = () => {
     return (
-        <div>
+        <div className = {styles.allContainer}>
             <h1>About Us</h1>
             <h2>Mission Statement</h2>
             <cite>"To empower patients with the knowledge to better manage their own healthcare and to improve consumer safety by assisting in the reduction of medication errors." </cite>

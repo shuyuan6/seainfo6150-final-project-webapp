@@ -47,6 +47,8 @@ function App() {
        document.title = "About Us"
      } else if (location.pathname === "/Certifications") {
        document.title = "Certifications"
+     } else if (location.pathname === "/seainfo6150-final-project-webapp") {
+       document.title = "Medications Dictionary"
      }
      else if (location.pathname.includes("/browse/")) {
      } else {

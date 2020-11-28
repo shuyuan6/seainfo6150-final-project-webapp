@@ -18,7 +18,7 @@ const SignUp = () => {
 	  <h2 class="md-headline" align="center"> Want to get up to date information? Subscribe now!</h2>
 	  {
 	    submittedForm ? (
-        <div>You got it, {submittedForm.get("username")}! we'll send updates to {submittedForm.get("email")} at the frequency of {submittedForm.get("myDropdown")}!</div>
+        <div><h3>You got it, {submittedForm.get("username")}! we'll send updates to {submittedForm.get("email")} at the frequency of {submittedForm.get("myDropdown")}!</h3></div>
 	    ) : (
 	      <form onSubmit={onSubmit} className = {styles.content}>
             <div className="container">
