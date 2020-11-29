@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Certifications component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Certifications
+    </h1>
+    <ul>
+      <li>
+        Certified by Cerner Multum Information Services: medications information database.
+      </li>
+      <br />
+      <li>
+        Certified by Micromedex: Advanced Consumer Information database, Care Guide and Image Database.
+      </li>
+      <br />
+      <li>
+        Certified by Physicians' Desk Reference: medications information database.
+      </li>
+      <br />
+      <li>
+        Certified by Wolters Kluwer Health: facts and Comparisons Integrated MedFacts consumer medications information.
+      </li>
+    </ul>
+  </div>
+</div>
+`;

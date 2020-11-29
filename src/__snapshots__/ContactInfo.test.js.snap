@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ContactInfo component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Contact Us
+    </h1>
+    <br />
+    <p>
+      <b>
+          Email Address: 
+      </b>
+      <br />
+      <br />
+      <span>
+          medService@medications.com
+      </span>
+    </p>
+    <br />
+    <p>
+      <b>
+          Address: 
+      </b>
+       
+      <br />
+      <br />
+      <span>
+          1234 S 9th Ave N
+      </span>
+       
+      <br />
+      <span>
+          Seattle, WA 98123
+      </span>
+    </p>
+    <br />
+    <p>
+      <b>
+          Phone Number: 
+      </b>
+       
+      <br />
+      <br />
+      <span>
+          123-456-7890
+      </span>
+       
+      <br />
+    </p>
+    <br />
+  </div>
+</div>
+`;

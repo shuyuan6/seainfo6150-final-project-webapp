@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Medication component correctly 1`] = `
+<div>
+  <div
+    class="medication"
+  >
+    <h1>
+      Symbicort
+    </h1>
+    <p>
+      <b>
+        Hi, you are viewing detailed information for medication 
+        Symbicort
+        .
+      </b>
+    </p>
+    <br />
+    <h2>
+      Description
+    </h2>
+    <p>
+      Carvedilol is Symbicort contains a combination of budesonide and formoterol. Budesonide is a corticosteroid that reduces inflammation in the body. Formoterol is a long-acting bronchodilator that relaxes muscles in the airways to improve breathing.
+    </p>
+    <br />
+    <h2>
+      Usage
+    </h2>
+    <p>
+      Symbicort is used to control and prevent the symptoms of asthma in adults and children at least 6 years old. Symbicort is also used to help control the symptoms of chronic obstructive pulmonary disease (COPD), including chronic bronchitis and emphysema.
+    </p>
+    <br />
+    <h2>
+      Dosage
+    </h2>
+    <p>
+      Initial dose: 2 inhalations of SYMBICORT 80/4.5 or SYMBICORT 160/4.5 twice daily. Maximum dose: SYMBICORT 160/4.5, two inhalations twice daily.
+    </p>
+    <br />
+    <h2>
+      Side Effects
+    </h2>
+    <p>
+      Commonly reported side effects include: body aches or pain, chills, cough, difficulty with breathing, ear congestion, fever, headache, loss of voice, muscle aches, pain or tenderness around the eyes and cheekbones.
+    </p>
+  </div>
+</div>
+`;

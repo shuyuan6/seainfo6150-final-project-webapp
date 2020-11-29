@@ -23,7 +23,6 @@ const Weather = (props) => {
         }
         
         if (fetchedData.length === 0) {
-            console.log("Calling fetech data")
             fetchData();
         }
         

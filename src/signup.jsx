@@ -15,17 +15,17 @@ const SignUp = () => {
 
 	return (
 	<div className = {styles.container}>
-	  <h2 class="md-headline" align="center"> Want to get up to date information? Subscribe now!</h2>
+	  <h2 className="md-headline" align="center"> Want to get up to date information? Subscribe now!</h2>
 	  {
 	    submittedForm ? (
         <div><h3>You got it, {submittedForm.get("username")}! we'll send updates to {submittedForm.get("email")} at the frequency of {submittedForm.get("myDropdown")}!</h3></div>
 	    ) : (
 	      <form onSubmit={onSubmit} className = {styles.content}>
             <div className="container">
-                <p class="md-headline" align="center">Please fill in this form to subscribe, fields with * are required.</p>
+                <p className="md-headline" align="center">Please fill in this form to subscribe, fields with * are required.</p>
 
               
-                <label class="md-headline" align="center" htmlFor="username"><b>*Username: </b></label>
+                <label className="md-headline" align="center" htmlFor="username"><b>*Username: </b></label>
                 <div><input type="text" placeholder="Enter Username" name="username" required></input></div>
                 <p></p>
 

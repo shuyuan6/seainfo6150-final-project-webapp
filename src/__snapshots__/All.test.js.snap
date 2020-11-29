@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the All component correctly 1`] = `
+<div>
+  <div
+    class="allContainer"
+  >
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Aclasta
+      </h2>
+      <div>
+        Aclasta contains zoledronic acid (sometimes called zoledronate). It belongs to a group of medicines called bisphosphonates. Zoledronic acid inhibits the release of calcium from bones.
+      </div>
+      <a
+        href="/browse/8"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Aclidinium
+      </h2>
+      <div>
+        Aclidinium is a bronchodilator.
+      </div>
+      <a
+        href="/browse/18"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Ampyra
+      </h2>
+      <div>
+        Ampyra (dalfampridine) is a potassium channel blocker.
+      </div>
+      <a
+        href="/browse/6"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Anti-Fungal Liquid
+      </h2>
+      <div>
+        Anti-Fungal Liquid is an antifungal medication that fights infections caused by fungus.
+      </div>
+      <a
+        href="/browse/11"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Azithromycin
+      </h2>
+      <div>
+        Azithromycin is an antibiotic that fights bacteria.
+      </div>
+      <a
+        href="/browse/13"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Benicar
+      </h2>
+      <div>
+        Benicar (olmesartan) is an angiotensin II receptor antagonist. Olmesartan keeps blood vessels from narrowing, which lowers blood pressure and improves blood flow.
+      </div>
+      <a
+        href="/browse/15"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        BenzaClin
+      </h2>
+      <div>
+        BenzaClin Gel contains a combination of benzoyl peroxide and clindamycin. Benzoyl peroxide has an antibacterial effect. It also has a mild drying effect that allows excess oil and dirt to be washed away. Clindamycin is an antibiotic that prevents bacteria from growing on the skin.
+      </div>
+      <a
+        href="/browse/10"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Carafate
+      </h2>
+      <div>
+        Carafate (sucralfate) is an anti-ulcer medication. Carafate is not greatly absorbed into the body through the digestive tract. It works mainly in the lining of the stomach by sticking to ulcer sites and protecting them from acids, enzymes, and bile salts.
+      </div>
+      <a
+        href="/browse/19"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Carvedilol
+      </h2>
+      <div>
+        Carvedilol is a beta-blocker. Beta-blockers affect the heart and circulation (blood flow through arteries and veins).
+      </div>
+      <a
+        href="/browse/1"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Cefdinir
+      </h2>
+      <div>
+        Cefdinir is a cephalosporin (SEF a low spor in) antibiotic.
+      </div>
+      <a
+        href="/browse/12"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Cephalexin
+      </h2>
+      <div>
+        Cephalexin is a cephalosporin (SEF a low spor in) antibiotic. It works by fighting bacteria in your body.
+      </div>
+      <a
+        href="/browse/14"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        DermaWerx SDS Pak
+      </h2>
+      <div>
+        Triamcinolone is a potent steroid that helps reduce inflammation in the body.
+      </div>
+      <a
+        href="/browse/21"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Elidel Cream
+      </h2>
+      <div>
+        Elidel (pimecrolimus) is an immunosuppressant. It works by decreasing your body's immune system to help slow down the growth of atopic dermatitis (eczema) on your skin.
+      </div>
+      <a
+        href="/browse/22"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Evista
+      </h2>
+      <div>
+        Evista (raloxifene) affects the cycle of bone formation and breakdown in the body, and reduces loss of bone tissue.
+      </div>
+      <a
+        href="/browse/9"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Lansoprazole
+      </h2>
+      <div>
+        Lansoprazole is a proton pump inhibitor. Lansoprazole decreases the amount of acid produced in the stomach.
+      </div>
+      <a
+        href="/browse/20"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Lisinopril
+      </h2>
+      <div>
+        Lisinopril is an ACE inhibitor. ACE stands for angiotensin converting enzyme.
+      </div>
+      <a
+        href="/browse/0"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Namenda
+      </h2>
+      <div>
+        Namenda (memantine) reduces the actions of chemicals in the brain that may contribute to the symptoms of Alzheimer's disease.
+      </div>
+      <a
+        href="/browse/7"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Nexium
+      </h2>
+      <div>
+        Nexium (esomeprazole magnesium) is a proton pump inhibitor that decreases the amount of acid produced in the stomach.
+      </div>
+      <a
+        href="/browse/5"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Omeprazole
+      </h2>
+      <div>
+        Omeprazole is a proton pump inhibitor that decreases the amount of acid produced in the stomach.
+      </div>
+      <a
+        href="/browse/4"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Prednisone
+      </h2>
+      <div>
+        Prednisone is a corticosteroid. It prevents the release of substances in the body that cause inflammation. It also suppresses the immune system.
+      </div>
+      <a
+        href="/browse/17"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Symbicort
+      </h2>
+      <div>
+        Carvedilol is Symbicort contains a combination of budesonide and formoterol. Budesonide is a corticosteroid that reduces inflammation in the body. Formoterol is a long-acting bronchodilator that relaxes muscles in the airways to improve breathing.
+      </div>
+      <a
+        href="/browse/2"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Vasotec
+      </h2>
+      <div>
+        Vasotec (enalapril) is an ACE inhibitor. ACE stands for angiotensin converting enzyme.
+      </div>
+      <a
+        href="/browse/16"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+    <div
+      class="medicationContainer"
+    >
+      <h2>
+        Yupelri Inhalation
+      </h2>
+      <div>
+        Yupelri (revefenacin) is an anticholinergic medicine. Anticholinergic medicines help the muscles around the airways in your lungs stay relaxed.
+      </div>
+      <a
+        href="/browse/3"
+      >
+         See more 
+      </a>
+      <br />
+      <br />
+    </div>
+  </div>
+</div>
+`;

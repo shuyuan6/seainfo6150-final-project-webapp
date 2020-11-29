@@ -3,16 +3,11 @@ import { Switch, Route, Link, useLocation } from "react-router-dom";
 import {useEffect} from "react"
 
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
-import Bar from "./Bar/Bar.jsx";
-import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Faqs from "./faqs.jsx"
-import About from "./about.jsx"
 import Browse from "./browse.jsx"
 import SignUp from "./signup.jsx"
 import Medication from "./medication.jsx"
-import treefrog from "./images/treefrog.jpg";
 import All from "./All.jsx"
 import Weather from "./Weather.jsx"
 import PrivacyPolicy from "./PrivacyPolicy.jsx";
@@ -28,36 +23,32 @@ function App() {
 
   useEffect(() => {
      if (location.pathname === ("/signup")) {
-       document.title = "Subscribe"
+       document.title = "Subscribe | Medicaitons Dictionary"
      } else if (location.pathname === ("/browse")) {
-       document.title = "All Systems"
+       document.title = "All Systems | Medicaitons Dictionary"
      } else if (location.pathname === ("/faqs")) {
-       document.title = "FAQs"
-     } else if (location.pathname === ("/about")) {
-       document.title = "About Us"
+       document.title = "FAQs | Medicaitons Dictionary"
      } else if (location.pathname === ("/all")) {
-       document.title = "All Medications"
+       document.title = "All Medications | Medicaitons Dictionary"
      } else if (location.pathname === ("/")) {
        document.title = "Medications Dictionary"
      } else if (location.pathname === "/PrivacyPolicy") {
-       document.title = "Privacy Policy"
+       document.title = "Privacy Policy | Medicaitons Dictionary"
      } else if (location.pathname === "/ContactInfo") {
-       document.title = "Contact Us"
+       document.title = "Contact Us | Medicaitons Dictionary"
      } else if (location.pathname === "/WhoWeAre") {
-       document.title = "About Us"
+       document.title = "About Us | Medicaitons Dictionary"
      } else if (location.pathname === "/Certifications") {
-       document.title = "Certifications"
+       document.title = "Certifications | Medicaitons Dictionary"
      } else if (location.pathname === "/seainfo6150-final-project-webapp") {
        document.title = "Medications Dictionary"
      }
      else if (location.pathname.includes("/browse/")) {
      } else {
-       document.title = "Error"
+       document.title = "404 Error | Medicaitons Dictionary"
      }
      
   }, [location]);
-
-  console.log("css:", styles)
 
   return (
     <>
@@ -80,15 +71,12 @@ function App() {
 
       </header>
       
-      {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/seainfo6150-final-project-webapp" exact component={Home}/> 
         <Route path="/all" exact component={All} />
         <Route path="/browse" exact component={Browse} />
         <Route path="/signup" exact component={SignUp} />
-        <Route path="/about" exact component={About} />
         <Route path="/faqs" exact component={Faqs} />
         <Route path="/PrivacyPolicy" exact component={PrivacyPolicy} />
         <Route path="/ContactInfo" exact component={ContactInfo} />
@@ -100,20 +88,6 @@ function App() {
           exact
           render={({ match }) => (
             <Medication id={match.params.id} />  
-          )}
-        />
-        {/*<Route path="/skin_drugs" exact component={SkinDrugs} />*/}
-        {/* passing parameters via a route path */}
-        <Route
-          path="/bar/:categoryId/:productId"
-          exact
-          render={({ match }) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
-            <Bar
-              categoryId={match.params.categoryId}
-              productId={match.params.productId}
-            />
           )}
         />
         <Route component={Error} />

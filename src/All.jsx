@@ -23,9 +23,6 @@ const All = () => {
     	return 0;
 	});
 
-	console.log("Sort done")
-	items.forEach(element => console.log(element));
-
     return (
         <div className = {styles.allContainer}>{
 			items.map(function(item, idx) {

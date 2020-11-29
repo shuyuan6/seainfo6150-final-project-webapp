@@ -1,8 +1,7 @@
 import React from 'react'
-
 import {medications} from './MedicationData.jsx'
 import {useEffect} from "react"
-import { Switch, Route, Link, useLocation } from "react-router-dom";
+import {useLocation } from "react-router-dom";
 import Error from "./Error/Error.jsx"
 import styles from "./medication.module.css";
 
@@ -17,8 +16,10 @@ const Medication = (props) => {
 			}		
 		})
     })
-    
+
+
     let location = useLocation()
+
     useEffect(() => {
         if (obj == undefined) {
             document.title = "Not Found"

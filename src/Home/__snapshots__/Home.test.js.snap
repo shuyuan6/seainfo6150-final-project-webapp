@@ -2,55 +2,18 @@
 
 exports[`renders the home component correctly 1`] = `
 <div>
-  <div>
-    The home page
+  <div
+    class="container"
+  >
+    <h1>
+      Welcome to the Medications Dictionary!
+    </h1>
     <img
-      alt="tree frog"
-      src="/images/treefrog.jpg"
+      alt="Welcome to the Medications Dictionary!"
+      sizes=" (max-width: 320px) 100px, (max-width: 500px) 250px, (max-width: 600px) 440px, 800px "
+      src="homepageImage1.jpg"
+      srcset=" /seainfo6150-final-project-webapp/static/media/homepageImage3.a935f9c1.jpg 300w, /seainfo6150-final-project-webapp/static/media/homepageImage2.c88681e9.jpg 600w, /seainfo6150-final-project-webapp/static/media/homepageImage1.0843378d.jpg 900w, "
     />
-    <div>
-      <form>
-        <label
-          for="myTextId"
-        >
-          Input
-        </label>
-        <input
-          id="myTextId"
-          name="myText"
-          type="text"
-        />
-        <label
-          for="myDropdownId"
-        >
-          Input
-        </label>
-        <select
-          id="myDropdownId"
-          name="myDropdown"
-        >
-          <option
-            value="foo"
-          >
-            Foo
-          </option>
-          <option
-            value="bar"
-          >
-            Bar
-          </option>
-          <option
-            value="baz"
-          >
-            Baz
-          </option>
-        </select>
-        <input
-          type="submit"
-          value="Send it"
-        />
-      </form>
-    </div>
   </div>
 </div>
 `;

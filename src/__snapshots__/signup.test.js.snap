@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SignUp component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2
+      align="center"
+      class="md-headline"
+    >
+       Want to get up to date information? Subscribe now!
+    </h2>
+    <form
+      class="content"
+    >
+      <div
+        class="container"
+      >
+        <p
+          align="center"
+          class="md-headline"
+        >
+          Please fill in this form to subscribe, fields with * are required.
+        </p>
+        <label
+          align="center"
+          class="md-headline"
+          for="username"
+        >
+          <b>
+            *Username: 
+          </b>
+        </label>
+        <div>
+          <input
+            name="username"
+            placeholder="Enter Username"
+            required=""
+            type="text"
+          />
+        </div>
+        <p />
+        <label
+          for="preferedname"
+        >
+          <b>
+            Preferred name: 
+          </b>
+        </label>
+        <div>
+          <input
+            name="preferedname"
+            placeholder="Enter Preferred Name"
+            type="text"
+          />
+        </div>
+        <p />
+        <label
+          for="email"
+        >
+          <b>
+            *Email: 
+          </b>
+        </label>
+        <div>
+          <input
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\\\\.[a-z]{2,}$"
+            placeholder="Enter Email"
+            required=""
+            title="Must follow the valid email format like local-part@domain."
+            type="text"
+          />
+        </div>
+        <p />
+        <label
+          for="myDropdownId"
+        >
+          <b>
+            How frequent would you like to hear from us? 
+          </b>
+        </label>
+        <div>
+          <select
+            id="myDropdownId"
+            name="myDropdown"
+          >
+            <option
+              value="everyday"
+            >
+              Every Day
+            </option>
+            <option
+              value="everyweek"
+            >
+              Every Week
+            </option>
+            <option
+              value="everymonth"
+            >
+              Every Month
+            </option>
+          </select>
+        </div>
+        <p />
+        <label
+          for="zip"
+        >
+          <b>
+            *Zip code: 
+          </b>
+        </label>
+        <div>
+          <input
+            name="zip"
+            pattern="[0-9]{5}"
+            placeholder="Enter Zip Code"
+            required=""
+            title="Zip code is in five-digit format"
+            type="text"
+          />
+        </div>
+        <p />
+        <label
+          for="tel"
+        >
+          <b>
+            Phone Number: 
+          </b>
+           
+        </label>
+        <div>
+          <input
+            name="tel"
+            pattern="[0-9]{10}"
+            placeholder="Enter Phone Number"
+            title="Phone number is in ten-digit format"
+            type="text"
+          />
+        </div>
+        <p />
+        <div>
+          <b>
+            Would you like to receive text messages from us? 
+          </b>
+        </div>
+        <input
+          id="yes"
+          name="yn"
+          type="radio"
+          value="yes"
+        />
+        <label
+          for="yes"
+        >
+          Yes
+        </label>
+        <br />
+        <input
+          id="no"
+          name="yn"
+          type="radio"
+          value="no"
+        />
+        <label
+          for="no"
+        >
+          No
+        </label>
+        <p />
+        <div>
+          <b>
+            What fields are you interested in (please select all)?
+          </b>
+        </div>
+        <input
+          name="checkbox1"
+          type="checkbox"
+          value="FDANews"
+        />
+        <label
+          for="checkbox1"
+        >
+           FDA news 
+        </label>
+        <br />
+        <input
+          name="checkbox2"
+          type="checkbox"
+          value="ClinicalTrial"
+        />
+        <label
+          for="checkbox2"
+        >
+           New medication clinical trial
+        </label>
+        <br />
+        <input
+          name="checkbox3"
+          type="checkbox"
+          value="Approval"
+        />
+        <label
+          for="checkbox3"
+        >
+           New drug approvalt
+        </label>
+        <br />
+        <input
+          name="checkbox4"
+          type="checkbox"
+          value="COVID-19"
+        />
+        <label
+          for="checkbox3"
+        >
+           COVID-19 news
+        </label>
+        <p />
+        <label
+          for="howDidYouHearAboutUs"
+        >
+          <b>
+            How did you hear about us? 
+          </b>
+        </label>
+        <div>
+          <select
+            id="howDidYouHearAboutUs"
+            name="myDropdownHowDidYouHearAboutUs"
+          >
+            <option
+              value="SearchEngine"
+            >
+              Search engine
+            </option>
+            <option
+              value="GoogleAds"
+            >
+              EGoogle Ads
+            </option>
+            <option
+              value="YoutubeAds"
+            >
+              Youtube Ads
+            </option>
+            <option
+              value="Twitter post"
+            >
+              Twitter post
+            </option>
+            <option
+              value="OtherSocialMedia"
+            >
+              Other social media
+            </option>
+            <option
+              value="Radio"
+            >
+              Radio
+            </option>
+            <option
+              value="TV"
+            >
+              TV
+            </option>
+            <option
+              value="Newspaper"
+            >
+              Newspaper
+            </option>
+            <option
+              value="WordOfMouth"
+            >
+              Word of mouth
+            </option>
+          </select>
+        </div>
+        <p />
+        <button
+          class="signupbtn"
+          type="submit"
+        >
+          Subscribe
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

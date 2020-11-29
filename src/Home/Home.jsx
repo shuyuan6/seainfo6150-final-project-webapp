@@ -1,11 +1,5 @@
 import React from 'react'
-import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
-import homepageImage2 from "../images/homepageImage2.jpg";
 import homepageImage1 from "../images/homepageImage1.jpg";
-import homepageImage3 from "../images/homepageImage3.jpg";
-
-
 import styles from "./Home.module.css"
 
 const Home = () => {
@@ -13,7 +7,7 @@ const Home = () => {
         <div className = {styles.container}>
             <h1>Welcome to the Medications Dictionary!</h1>
         <img
-            srcset="
+            srcSet="
             /seainfo6150-final-project-webapp/static/media/homepageImage3.a935f9c1.jpg 300w,
             /seainfo6150-final-project-webapp/static/media/homepageImage2.c88681e9.jpg 600w,
             /seainfo6150-final-project-webapp/static/media/homepageImage1.0843378d.jpg 900w,

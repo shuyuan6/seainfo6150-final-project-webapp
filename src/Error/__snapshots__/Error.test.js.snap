@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Error component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      The page you are looking for is not found!
+    </h1>
+    <img
+      alt="Error"
+      src="error.png"
+    />
+    <br />
+    <p>
+      You can click 
+      <a
+        href="/"
+      >
+        here
+      </a>
+       to go to the home page!
+    </p>
+  </div>
+</div>
+`;
