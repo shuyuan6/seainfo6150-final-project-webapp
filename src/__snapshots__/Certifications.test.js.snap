@@ -8,23 +8,18 @@ exports[`renders the Certifications component correctly 1`] = `
     <h1>
       Certifications
     </h1>
-    <ul>
-      <li>
-        Certified by Cerner Multum Information Services: medications information database.
-      </li>
-      <br />
-      <li>
-        Certified by Micromedex: Advanced Consumer Information database, Care Guide and Image Database.
-      </li>
-      <br />
-      <li>
-        Certified by Physicians' Desk Reference: medications information database.
-      </li>
-      <br />
-      <li>
-        Certified by Wolters Kluwer Health: facts and Comparisons Integrated MedFacts consumer medications information.
-      </li>
-    </ul>
+    <p>
+        Certified by Cerner Multum Information Services: medications information database.
+    </p>
+    <p>
+        Certified by Micromedex: Advanced Consumer Information database, Care Guide and Image Database.
+    </p>
+    <p>
+        Certified by Physicians' Desk Reference: medications information database.
+    </p>
+    <p>
+        Certified by Wolters Kluwer Health: facts and Comparisons Integrated MedFacts consumer medications information.
+    </p>
   </div>
 </div>
 `;

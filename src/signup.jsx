@@ -15,26 +15,26 @@ const SignUp = () => {
 
 	return (
 	<div className = {styles.container}>
-	  <h2 className="md-headline" align="center"> Want to get up to date information? Subscribe now!</h2>
+	  <h2> Want to get up to date information? Subscribe now!</h2>
 	  {
 	    submittedForm ? (
         <div><h3>You got it, {submittedForm.get("username")}! we'll send updates to {submittedForm.get("email")} at the frequency of {submittedForm.get("myDropdown")}!</h3></div>
 	    ) : (
 	      <form onSubmit={onSubmit} className = {styles.content}>
             <div className="container">
-                <p className="md-headline" align="center">Please fill in this form to subscribe, fields with * are required.</p>
+                <p>Please fill in this form to subscribe, fields with * are required.</p>
 
               
-                <label className="md-headline" align="center" htmlFor="username"><b>*Username: </b></label>
-                <div><input type="text" placeholder="Enter Username" name="username" required></input></div>
+                <label htmlFor="username"><b>*Username: </b></label>
+                <div><input id = "username" type="text" placeholder="Enter Username" name="username" required></input></div>
                 <p></p>
 
                 <label htmlFor="preferedname"><b>Preferred name: </b></label>
-                <div><input type="text" placeholder="Enter Preferred Name" name="preferedname"></input></div>
+                <div><input id = "preferedname" type="text" placeholder="Enter Preferred Name" name="preferedname"></input></div>
                 <p></p>
 
                 <label htmlFor="email"><b>*Email: </b></label>
-                <div><input type="text" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Must follow the valid email format like local-part@domain."name="email" required></input></div>
+                <div><input id = "email" type="text" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Must follow the valid email format like local-part@domain."name="email" required></input></div>
                 <p></p>
 
                 <label htmlFor="myDropdownId"><b>How frequent would you like to hear from us? </b></label>
@@ -48,11 +48,11 @@ const SignUp = () => {
                  <p></p>
 
                 <label htmlFor="zip"><b>*Zip code: </b></label>
-                <div><input type="text" placeholder="Enter Zip Code" pattern="[0-9]{5}" title="Zip code is in five-digit format" name="zip" required></input></div>
+                <div><input id = "zip" type="text" placeholder="Enter Zip Code" pattern="[0-9]{5}" title="Zip code is in five-digit format" name="zip" required></input></div>
                 <p></p>
 
                 <label htmlFor="tel"><b>Phone Number: </b> </label>
-                <div><input type="text" placeholder="Enter Phone Number" name="tel" pattern="[0-9]{10}" title="Phone number is in ten-digit format"></input></div>
+                <div><input id = "tel" type="text" placeholder="Enter Phone Number" name="tel" pattern="[0-9]{10}" title="Phone number is in ten-digit format"></input></div>
                 <p></p>
 
                 <div><b>Would you like to receive text messages from us? </b></div>
@@ -65,11 +65,11 @@ const SignUp = () => {
                 <div><b>What fields are you interested in (please select all)?</b></div>
                 <input type="checkbox" name="checkbox1" value="FDANews"></input>
                 <label htmlFor="checkbox1"> FDA news </label><br />
-                <input type="checkbox" name="checkbox2" value="ClinicalTrial"></input>
+                <input id = "checkbox1" type="checkbox" name="checkbox2" value="ClinicalTrial"></input>
                 <label htmlFor="checkbox2"> New medication clinical trial</label><br/>
-                <input type="checkbox" name="checkbox3" value="Approval"></input>
+                <input id = "checkbox2" type="checkbox" name="checkbox3" value="Approval"></input>
                 <label htmlFor="checkbox3"> New drug approvalt</label><br/>
-                <input type="checkbox" name="checkbox4" value="COVID-19"></input>
+                <input id = "checkbox3" type="checkbox" name="checkbox4" value="COVID-19"></input>
                 <label htmlFor="checkbox3"> COVID-19 news</label>
                 <p></p>
 
