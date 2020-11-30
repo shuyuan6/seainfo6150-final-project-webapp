@@ -9,7 +9,7 @@ const Error = () => {
             
             <img src={error} alt="Error" />
             <br />
-            <p>You can click <a  href="/">here</a> to go to the home page!</p>
+            <p>You can click <a  href="/seainfo6150-final-project-webapp">here</a> to go to the home page!</p>
 
         </div>
     )
