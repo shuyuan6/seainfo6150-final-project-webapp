@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./Error.module.css"
 import error from "../images/error.png"
+import { Link } from "react-router-dom";
 
 const Error = () => {
     return (
@@ -9,7 +10,7 @@ const Error = () => {
             
             <img src={error} alt="Error" />
             <br />
-            <p>You can click <a  href="/seainfo6150-final-project-webapp">here</a> to go to the home page!</p>
+            <p>You can click <Link to="/">here</Link> to go to the home page!</p>
 
         </div>
     )

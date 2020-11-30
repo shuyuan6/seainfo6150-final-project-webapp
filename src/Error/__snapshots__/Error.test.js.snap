@@ -16,7 +16,7 @@ exports[`renders the Error component correctly 1`] = `
     <p>
       You can click 
       <a
-        href="/seainfo6150-final-project-webapp"
+        href="/"
       >
         here
       </a>

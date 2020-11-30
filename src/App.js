@@ -53,7 +53,7 @@ function App() {
   return (
     <>
       <header>
-        <a className = {styles.navigation} href="/seainfo6150-final-project-webapp"><img src={logo} alt="Logo" /></a>
+        <Link to="/" className = {styles.navigation} ><img src={logo} alt="Logo" /></Link>
         <nav className = {styles.navigation}>
           <ul className = {styles.list}>
             <li className = {styles.listItem}>

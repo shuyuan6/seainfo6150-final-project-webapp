@@ -24,7 +24,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/0"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -42,7 +42,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/1"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -60,7 +60,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/15"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -78,7 +78,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/16"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -107,7 +107,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/2"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -125,7 +125,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/3"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -143,7 +143,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/17"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -161,7 +161,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/18"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -190,7 +190,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/4"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -208,7 +208,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/5"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -226,7 +226,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/19"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -244,7 +244,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/20"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -273,7 +273,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/6"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -291,7 +291,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/7"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -320,7 +320,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/8"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -338,7 +338,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/9"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -367,7 +367,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/10"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -385,7 +385,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/11"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -403,7 +403,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/21"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -421,7 +421,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/22"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -450,7 +450,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/12"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -468,7 +468,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/13"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />
@@ -486,7 +486,7 @@ exports[`renders the Browse component correctly 1`] = `
           <a
             href="/browse/14"
           >
-             See more 
+             See more
           </a>
           <br />
           <br />

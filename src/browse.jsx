@@ -1,6 +1,7 @@
 import React from 'react'
 import {medications} from './MedicationData.jsx'
 import styles from "./browse.module.css";
+import { Link } from "react-router-dom";
 
 
 const Browse = () => {
@@ -18,7 +19,7 @@ const Browse = () => {
 	            					<div className = {styles.medicationContainer} key={idx}>
 	            					<h3>{item.name}</h3>
 	            					<div>{item.discription}</div>
-	            					<a href={"/browse/" + item.id}> See more </a>
+									<Link to={"/browse/" + item.id}> See more</Link>
 	            					<br />
 	            					<br />
                                     <br />

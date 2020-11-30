@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Switch, Route, Link, useLocation } from "react-router-dom";
 import {medications} from './MedicationData.jsx'
 import styles from "./All.module.css";
 
@@ -30,7 +30,7 @@ const All = () => {
 					<div className = {styles.medicationContainer} key={idx}>
 					<h2>{item.name}</h2>
 					<div>{item.discription}</div>
-					<a href={"/browse/" + item.id}> See more </a>
+					<Link to={"/browse/" + item.id}> See more</Link>
 					<br />
 					<br />
 					</div>
