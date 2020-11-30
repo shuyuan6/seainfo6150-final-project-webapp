@@ -12,7 +12,7 @@ const Weather = (props) => {
         const fetchData = async () => {
             // performs a GET request
             const response = await fetch(
-                "http://demo7298209.mockable.io/weather"
+                "https://demo7298209.mockable.io/weather"
             );
             //console.log(response)
             const responseJson = await response.json();
