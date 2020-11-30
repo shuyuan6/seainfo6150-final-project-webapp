@@ -24,7 +24,7 @@ const Medication = (props) => {
         if (obj == undefined) {
             document.title = "Not Found"
         }
-        else if (location.pathname == ("/browse/" + obj.id)) {
+        else if (location.pathname == ("/seainfo6150-final-project-webapp/browse/" + obj.id)) {
           document.title = obj.name
         } 
      }, [location]);
