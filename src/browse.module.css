@@ -21,7 +21,7 @@
   padding: 15px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 200px) {
   .systemContainer {
     grid-template-columns: repeat(1, 1fr);
   }
